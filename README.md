@@ -38,8 +38,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Apllication Featuers
 
-1- Add new TODO tasks
-2- Edit an existing task
-3- Delte an existing task
-4- Clear all tasks
-5- Change mode "DARK" & "Light"
+1- Add new TODO tasks<br>
+2- Edit an existing task<br>
+3- Delete an existing task<br>
+4- Clear all tasks<br>
+5- Change mode "DARK" & "Light"<br>
