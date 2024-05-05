@@ -6,7 +6,7 @@ import ShowTask from './ShowTask';
 import AddTask from './AddTask';
 import { useEffect, useState } from 'react';
 const DefaultLayout = ({ children }) => {
-    const [taskList, setTaskList] = useState(JSON.parse(window.localStorage.getItem("taskList")) || []);
+    const [taskList, setTaskList] = useState(JSON.parse(localStorage.getItem("taskList")) || []);
     const [task, setTask] = useState({});
 
     useEffect(() => {
@@ -22,7 +22,7 @@ const DefaultLayout = ({ children }) => {
                 <ShowTask taskList={taskList} setTaskList={setTaskList} task={task} setTask={setTask} />
             </Container>
             <footer>
-                <p>&copy; Roka 2024 My Application</p>
+                <p>&copy; Roka 2024 NextJS Application</p>
             </footer>
         </div>
     );

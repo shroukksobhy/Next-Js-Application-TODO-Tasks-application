@@ -5,10 +5,10 @@ import './page.css';
 const Home = () => {
   return (
     <DefaultLayout>
-      <Head>
+      {/* <Head>
         <title>My Application - Home</title>
       </Head>
-      <h1>Welcome to my application!</h1>
+      <h1>Welcome to my application!</h1> */}
 
     </DefaultLayout>
 
