@@ -43,3 +43,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 3- Delete an existing task<br>
 4- Clear all tasks<br>
 5- Change mode "DARK" & "Light"<br>
+
+- Enjoy<br>
+
+## Author
+
+- **Shrouk Sobhy**: Software Developer
