@@ -6,12 +6,12 @@ import ShowTask from './ShowTask';
 import AddTask from './AddTask';
 import { useEffect, useState } from 'react';
 const DefaultLayout = ({ children }) => {
-    const [taskList, setTaskList] = useState(localStorage.getItem("taskList") ? JSON.parse(localStorage.getItem("taskList")) : []);
+    // const [taskList, setTaskList] = useState(localStorage.getItem("taskList") ? JSON.parse(localStorage.getItem("taskList")) : []);
     const [task, setTask] = useState({});
-
-    useEffect(() => {
-        localStorage.setItem("taskList", JSON.stringify(taskList));
-    }, [taskList]);
+    const [taskList, setTaskList] = useState([]);
+    // useEffect(() => {
+    //     localStorage.setItem("taskList", JSON.stringify(taskList));
+    // }, [taskList]);
 
     return (
         <div>
